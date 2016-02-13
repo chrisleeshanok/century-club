@@ -1,0 +1,22 @@
+{
+  "name": "century-club",
+  "homepage": "https://github.com/chrisleeshanok/century-club",
+  "authors": [
+    "Chris Lee <chris.leeshanok@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.0"
+  }
+}

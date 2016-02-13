@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.main {
+    margin: 0;
+    padding: 20px;
+    position: relative;
+    background-color: #3385ff;
+    width: 100%;
+    height: 100%;
+}
+
+.main .countdown {
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -300px;
+    margin-top: -200px;
+    color: #fff;
+    font-size: 144pt;
+    text-align: center;
+    font-family: Helvetica;
+}
+
+.main .countdown .timer {
+    color: #fff;
+    font-size: 144pt;
+    text-align: center;
+    font-family: Helvetica;
+}
+
+.main .countdown .counter {
+    color: #fff;
+    font-size: 72pt;
+    text-align: center;
+    font-family: Helvetica;
+}
+
+.main .controls {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.main .controls button {
+    border: 0;
+    background-color: #fff;
+    padding: 20px 40px;
+    font-size: 20pt;
+    color: #3385ff;
+    margin: 0px 20px;
+
+}
